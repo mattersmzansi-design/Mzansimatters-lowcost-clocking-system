@@ -1,13 +1,15 @@
-/* Site Clock service worker — offline shell caching. */
-const CACHE = 'sqclk-v1';
+/* MM Clocking System service worker — offline shell caching. */
+const CACHE = 'mmclk-v2';
 const ASSETS = [
     './',
     './index.html',
     './app.js',
     './clock.css',
     './manifest.webmanifest',
-    './logo.jpg',
-    './logo.png',
+    './icon.svg',
+    './icon-192.png',
+    './icon-512.png',
+    './icon-512-maskable.png',
     './favicon.png'
 ];
 

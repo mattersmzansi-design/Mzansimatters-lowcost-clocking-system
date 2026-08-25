@@ -1,5 +1,5 @@
-/* Squnga'esihle — Site Clock PWA
- * Zero-cost clock-in for cell phones. GPS + timestamp + optional geofence.
+/* Mzansi Money Matters — Clocking System PWA
+ * Low-cost clock-in for cell phones. GPS + timestamp + optional geofence.
  * Data goes to a Google Apps Script webhook (configurable), and is queued
  * locally in IndexedDB when offline so nothing is lost.
  */

@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="theme-color" content="#116943">
-    <meta name="description" content="Squnga'esihle Trading — Site clock-in for construction workers.">
-    <title>Site Clock &middot; Squnga'esihle Trading</title>
-    <link rel="icon" type="image/png" href="./favicon.png">
+    <meta name="description" content="Mzansi Money Matters — low-cost clocking system for South African workers.">
+    <title>Mzansi Money Matters &middot; Clocking System</title>
+    <link rel="icon" type="image/svg+xml" href="./icon.svg">
+    <link rel="alternate icon" type="image/png" href="./favicon.png">
     <link rel="manifest" href="manifest.webmanifest">
-    <link rel="apple-touch-icon" href="./logo.png">
+    <link rel="apple-touch-icon" href="./icon-192.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-title" content="Site Clock">
+    <meta name="apple-mobile-web-app-title" content="MM Clock">
     <link rel="stylesheet" href="clock.css">
 </head>
 <body>
     <header class="clock-header">
-        <a class="brand" href="../index.html" aria-label="Back to main site">
-            <img src="./logo.jpg" alt="Squnga'esihle Trading">
+        <a class="brand" href="./" aria-label="Home">
+            <div class="brand-mark" aria-hidden="true">MM</div>
             <div>
-                <div class="brand-title">Squnga&rsquo;esihle</div>
-                <div class="brand-sub">Site Clock</div>
+                <div class="brand-title">Mzansi Money Matters</div>
+                <div class="brand-sub">Clocking System</div>
             </div>
         </a>
         <button id="btn-settings" class="icon-btn" aria-label="Settings" title="Settings">&#9881;</button>
@@ -28,7 +29,7 @@
     <main class="stage">
         <section class="who card">
             <label for="workerName">Your name</label>
-            <input type="text" id="workerName" autocomplete="name" placeholder="e.g. Sboniso M." maxlength="60">
+            <input type="text" id="workerName" autocomplete="name" placeholder="e.g. Thabo M." maxlength="60">
             <label for="workerId">Worker ID / cell number</label>
             <input type="text" id="workerId" autocomplete="username" placeholder="e.g. 8203015 or 064 897 0288" maxlength="30">
             <div class="row-help">Saved on this phone only. Enter once — it will remember you.</div>
